@@ -416,6 +416,19 @@
         "echo.industry.industrial_revolution.18-19c"
       ],
       "tags": ["dev","wide","minor"]
+    },
+
+    {
+      "id": "dev.moon.anchor.always",
+      "type": "moon_phase",
+      "match": { },
+      "priority": 20,
+      "copy": {
+        "title": "Moon Anchor (Test)",
+        "future_theme": "Collective mood anchor. 📜 No echoes linked today. Focus on the present lunation tone."
+      },
+      "echo_ids": [],
+      "tags": ["test"]
     }
   ]
 }
