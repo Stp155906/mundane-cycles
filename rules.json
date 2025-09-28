@@ -216,6 +216,27 @@
       ],
       "notify": { "on": ["first_match_month"], "thread": "epoch" },
       "tags": ["endings","ideology","rebirth"]
-    }
+    },
+    {
+  "id": "dev.jupiter.trine.saturn.any",
+  "type": "aspect_theme",
+  "match": {
+    "bodies_exact": ["Jupiter","Saturn"],
+    "aspect_name_exact": "trine",
+    "orb_max_deg": 6.5,
+    "importance_min": 0.0
+  },
+  "priority": 95,
+  "copy": {
+    "title": "Jupiter △ Saturn — Structure Meets Growth",
+    "future_theme": "Build the new on solid footing; patience turns expansion into lasting gains."
+  },
+  "echo_ids": [
+    "echo.eu.enlightenment.1600-1700s",
+    "echo.industry.industrial_revolution.18-19c"
+  ],
+  "tags": ["dev","wide","minor"]
+}
+
   ]
 }
