@@ -1,0 +1,539 @@
+{
+  "version": 1,
+  "echoes": [
+    {
+      "id": "echo.civ.egypt.3100bce",
+      "year": "~3100 BCE",
+      "event": "Rise of Ancient Egypt",
+      "blurb": "Unification; monumental state formation."
+    },
+    {
+      "id": "echo.law.hammurabi.1754bce",
+      "year": "~1754 BCE",
+      "event": "Code of Hammurabi",
+      "blurb": "One of the earliest written legal codes."
+    },
+    {
+      "id": "echo.myth.trojan_war.1200bce",
+      "year": "~1200 BCE",
+      "event": "Trojan War (myth/history blend)",
+      "blurb": "Legendary conflict shaping Greek culture."
+    },
+    {
+      "id": "echo.rome.founding.753bce",
+      "year": "753 BCE",
+      "event": "Founding of Rome (legend)",
+      "blurb": "Mythic origin of Rome."
+    },
+    {
+      "id": "echo.hellenistic.alexander.336-323bce",
+      "year": "336–323 BCE",
+      "event": "Alexander the Great’s Conquests",
+      "blurb": "Rapid expansion; Hellenistic spread."
+    },
+    {
+      "id": "echo.china.great_wall.221bce",
+      "year": "221 BCE",
+      "event": "Great Wall of China (major construction)",
+      "blurb": "Unification & defense works."
+    },
+    {
+      "id": "echo.rome.julius_caesar.44bce",
+      "year": "44 BCE",
+      "event": "Death of Julius Caesar",
+      "blurb": "Republic → Empire turning point."
+    },
+    {
+      "id": "echo.religion.christianity.birth.1ce",
+      "year": "~1 CE",
+      "event": "Birth of Christianity",
+      "blurb": "Origins of a world religion."
+    },
+    {
+      "id": "echo.judaism.second_temple.70ce",
+      "year": "70 CE",
+      "event": "Fall of Jerusalem / Second Temple",
+      "blurb": "Major shift in Jewish history."
+    },
+    {
+      "id": "echo.rome.fall.476ce",
+      "year": "476 CE",
+      "event": "Fall of the Western Roman Empire",
+      "blurb": "Collapse reshapes Europe."
+    },
+    {
+      "id": "echo.religion.islam.rise.7c",
+      "year": "7th century",
+      "event": "Rise of Islam",
+      "blurb": "New world religion; rapid expansion."
+    },
+    {
+      "id": "echo.eu.charlemagne.800",
+      "year": "800",
+      "event": "Charlemagne crowned Emperor",
+      "blurb": "Foundation of the Holy Roman Empire."
+    },
+    {
+      "id": "echo.vikings.age.8-11c",
+      "year": "8th–11th centuries",
+      "event": "Viking Age",
+      "blurb": "Seafaring expansion reshapes north Europe."
+    },
+    {
+      "id": "echo.uk.hastings.1066",
+      "year": "1066",
+      "event": "Battle of Hastings",
+      "blurb": "Norman conquest changes England."
+    },
+    {
+      "id": "echo.crusades.1095-1291",
+      "year": "1095–1291",
+      "event": "The Crusades",
+      "blurb": "Religious wars over the Holy Land."
+    },
+    {
+      "id": "echo.uk.magna_carta.1215",
+      "year": "1215",
+      "event": "Signing of the Magna Carta",
+      "blurb": "Limits monarchy; proto-constitutional law."
+    },
+    {
+      "id": "echo.mongols.conquests.1206-1368",
+      "year": "1206–1368",
+      "event": "Mongol Conquests",
+      "blurb": "Largest land empire in history."
+    },
+    {
+      "id": "echo.health.black_death.1347-1351",
+      "year": "1347–1351",
+      "event": "The Black Death",
+      "blurb": "Pandemic kills ~⅓ of Europe."
+    },
+    {
+      "id": "echo.tech.printing_press.1440s",
+      "year": "1440s",
+      "event": "Gutenberg’s Printing Press",
+      "blurb": "Knowledge revolution."
+    },
+    {
+      "id": "echo.eu.fall_constantinople.1453",
+      "year": "1453",
+      "event": "Fall of Constantinople",
+      "blurb": "End of Byzantium; Ottoman rise."
+    },
+    {
+      "id": "echo.explore.columbus.1492",
+      "year": "1492",
+      "event": "Columbus reaches the Americas",
+      "blurb": "Opens colonization of the New World."
+    },
+    {
+      "id": "echo.religion.reformation.1517",
+      "year": "1517",
+      "event": "Protestant Reformation",
+      "blurb": "Fractures western Christianity."
+    },
+    {
+      "id": "echo.americas.aztec_fall.1521",
+      "year": "1521",
+      "event": "Fall of the Aztec Empire",
+      "blurb": "Spanish conquest reshapes Mesoamerica."
+    },
+    {
+      "id": "echo.americas.inca_fall.1533",
+      "year": "1533",
+      "event": "Fall of the Inca Empire",
+      "blurb": "Spanish domination of Andes."
+    },
+    {
+      "id": "echo.science.revolution.1500-1600s",
+      "year": "1500s–1600s",
+      "event": "Scientific Revolution",
+      "blurb": "New methods transform knowledge."
+    },
+    {
+      "id": "echo.uk.spanish_armada.1588",
+      "year": "1588",
+      "event": "Defeat of the Spanish Armada",
+      "blurb": "England’s naval ascendancy."
+    },
+    {
+      "id": "echo.eu.thirty_years_war.1618-1648",
+      "year": "1618–1648",
+      "event": "Thirty Years’ War",
+      "blurb": "Religious-political devastation."
+    },
+    {
+      "id": "echo.us.salem_witch_trials.1692",
+      "year": "1692",
+      "event": "Salem Witch Trials",
+      "blurb": "Mass hysteria and injustice."
+    },
+    {
+      "id": "echo.eu.enlightenment.1600-1700s",
+      "year": "1600s–1700s",
+      "event": "The Enlightenment",
+      "blurb": "Reason, rights, new philosophies."
+    },
+    {
+      "id": "echo.us.american_revolution.1775-1783",
+      "year": "1775–1783",
+      "event": "American Revolution",
+      "blurb": "Independence of the U.S."
+    },
+    {
+      "id": "echo.us.declaration.1776",
+      "year": "1776",
+      "event": "Declaration of Independence",
+      "blurb": "Landmark of self-governance."
+    },
+    {
+      "id": "echo.fr.french_revolution.1789-1799",
+      "year": "1789–1799",
+      "event": "French Revolution",
+      "blurb": "Monarchy collapses; democracy stirs."
+    },
+    {
+      "id": "echo.ht.haitian_revolution.1791-1804",
+      "year": "1791–1804",
+      "event": "Haitian Revolution",
+      "blurb": "First successful slave revolt."
+    },
+    {
+      "id": "echo.eu.napoleonic_wars.1803-1815",
+      "year": "1803–1815",
+      "event": "Napoleonic Wars",
+      "blurb": "French expansion and collapse."
+    },
+    {
+      "id": "echo.slavery.abolish_trade.1807-1808",
+      "year": "1807–1808",
+      "event": "Abolition of Transatlantic Slave Trade",
+      "blurb": "Step toward human rights."
+    },
+    {
+      "id": "echo.eu.congress_vienna.1815",
+      "year": "1815",
+      "event": "Congress of Vienna",
+      "blurb": "Redraws Europe after Napoleon."
+    },
+    {
+      "id": "echo.gr.greek_independence.1821-1830",
+      "year": "1821–1830",
+      "event": "Greek War of Independence",
+      "blurb": "Birth of modern Greece."
+    },
+    {
+      "id": "echo.us.trail_of_tears.1831-1850s",
+      "year": "1831–1850s",
+      "event": "Trail of Tears",
+      "blurb": "Forced displacement of Native Americans."
+    },
+    {
+      "id": "echo.us.mexican_american_war.1846-1848",
+      "year": "1846–1848",
+      "event": "Mexican–American War",
+      "blurb": "U.S. territorial expansion."
+    },
+    {
+      "id": "echo.us.gold_rush.1848-1855",
+      "year": "1848–1855",
+      "event": "California Gold Rush",
+      "blurb": "Mass migration; boomtowns."
+    },
+    {
+      "id": "echo.science.darwin.origin.1859",
+      "year": "1859",
+      "event": "Darwin’s On the Origin of Species",
+      "blurb": "Evolution theory reshapes biology."
+    },
+    {
+      "id": "echo.us.civil_war.1861-1865",
+      "year": "1861–1865",
+      "event": "U.S. Civil War",
+      "blurb": "Union vs. slavery."
+    },
+    {
+      "id": "echo.us.abolition.1865",
+      "year": "1865",
+      "event": "Abolition of Slavery in the U.S.",
+      "blurb": "Formal end of slavery."
+    },
+    {
+      "id": "echo.jp.meiji_restoration.1868",
+      "year": "1868",
+      "event": "Meiji Restoration",
+      "blurb": "Rapid modernization of Japan."
+    },
+    {
+      "id": "echo.de.unification.1871",
+      "year": "1871",
+      "event": "Unification of Germany",
+      "blurb": "Shifts European balance of power."
+    },
+    {
+      "id": "echo.tech.telephone.1876",
+      "year": "1876",
+      "event": "Invention of the Telephone",
+      "blurb": "Transforms communication."
+    },
+    {
+      "id": "echo.africa.berlin_conference.1884-1885",
+      "year": "1884–1885",
+      "event": "Berlin Conference",
+      "blurb": "Scramble for Africa formalized."
+    },
+    {
+      "id": "echo.us.spanish_american_war.1898",
+      "year": "1898",
+      "event": "Spanish–American War",
+      "blurb": "U.S. emerges as global power."
+    },
+    {
+      "id": "echo.industry.industrial_revolution.18-19c",
+      "year": "18th–19th centuries",
+      "event": "Industrial Revolution",
+      "blurb": "Tech transforms economy & society."
+    },
+    {
+      "id": "echo.aviation.wright.1903",
+      "year": "1903",
+      "event": "Wright Brothers’ First Flight",
+      "blurb": "Birth of aviation."
+    },
+    {
+      "id": "echo.ww1.1914-1918",
+      "year": "1914–1918",
+      "event": "World War I",
+      "blurb": "Global war; empires collapse."
+    },
+    {
+      "id": "echo.ru.russian_revolution.1917",
+      "year": "1917",
+      "event": "Russian Revolution",
+      "blurb": "Rise of the Soviet Union."
+    },
+    {
+      "id": "echo.eu.versailles.1919",
+      "year": "1919",
+      "event": "Treaty of Versailles",
+      "blurb": "Post-WWI settlement."
+    },
+    {
+      "id": "echo.finance.great_depression.1929",
+      "year": "1929",
+      "event": "The Great Depression",
+      "blurb": "Worldwide economic collapse."
+    },
+    {
+      "id": "echo.de.nazi_rise.1933",
+      "year": "1933",
+      "event": "Rise of Nazi Germany",
+      "blurb": "Authoritarian regime ascends."
+    },
+    {
+      "id": "echo.ww2.1939-1945",
+      "year": "1939–1945",
+      "event": "World War II",
+      "blurb": "Global war; atomic age begins."
+    },
+    {
+      "id": "echo.holocaust.1941-1945",
+      "year": "1941–1945",
+      "event": "The Holocaust",
+      "blurb": "Genocide of Jews and others."
+    },
+    {
+      "id": "echo.jp.hiroshima_nagasaki.1945",
+      "year": "1945",
+      "event": "Atomic Bombings of Hiroshima & Nagasaki",
+      "blurb": "Nuclear warfare introduced."
+    },
+    {
+      "id": "echo.un.founding.1945",
+      "year": "1945",
+      "event": "Founding of the United Nations",
+      "blurb": "Global diplomacy body founded."
+    },
+    {
+      "id": "echo.india.partition.1947",
+      "year": "1947",
+      "event": "Partition of India & Pakistan",
+      "blurb": "Independence & division."
+    },
+    {
+      "id": "echo.un.udhr.1948",
+      "year": "1948",
+      "event": "Universal Declaration of Human Rights",
+      "blurb": "Foundational human rights charter."
+    },
+    {
+      "id": "echo.cn.ccp_revolution.1949",
+      "year": "1949",
+      "event": "Chinese Communist Revolution",
+      "blurb": "PRC established."
+    },
+    {
+      "id": "echo.kr.korean_war.1950-1953",
+      "year": "1950–1953",
+      "event": "Korean War",
+      "blurb": "Korean peninsula divided."
+    },
+    {
+      "id": "echo.us.civil_rights.1950s-1960s",
+      "year": "1950s–1960s",
+      "event": "Civil Rights Movement",
+      "blurb": "Struggle for racial equality in U.S."
+    },
+    {
+      "id": "echo.cuba.missile_crisis.1962",
+      "year": "1962",
+      "event": "Cuban Missile Crisis",
+      "blurb": "Nuclear brinkmanship."
+    },
+    {
+      "id": "echo.us.jfk.1963",
+      "year": "1963",
+      "event": "JFK Assassination",
+      "blurb": "Political shock and transition."
+    },
+    {
+      "id": "echo.vn.vietnam_war.1955-1975",
+      "year": "1955–1975",
+      "event": "Vietnam War",
+      "blurb": "Long, divisive conflict."
+    },
+    {
+      "id": "echo.space.moon_landing.1969",
+      "year": "1969",
+      "event": "Moon Landing",
+      "blurb": "Historic space achievement."
+    },
+    {
+      "id": "echo.env.earth_day.1970",
+      "year": "1970",
+      "event": "Earth Day Established",
+      "blurb": "Start of modern environmentalism."
+    },
+    {
+      "id": "echo.vn.fall_saigon.1975",
+      "year": "1975",
+      "event": "Fall of Saigon",
+      "blurb": "End of the Vietnam War."
+    },
+    {
+      "id": "echo.ir.iranian_revolution.1979",
+      "year": "1979",
+      "event": "Iranian Revolution",
+      "blurb": "Monarchy overthrown; Islamic Republic."
+    },
+    {
+      "id": "echo.ua.chernobyl.1986",
+      "year": "1986",
+      "event": "Chernobyl Disaster",
+      "blurb": "Nuclear accident; lasting impact."
+    },
+    {
+      "id": "echo.de.berlin_wall_falls.1989",
+      "year": "1989",
+      "event": "Fall of the Berlin Wall",
+      "blurb": "Cold War thaw symbol."
+    },
+    {
+      "id": "echo.su.ussr_dissolution.1991",
+      "year": "1991",
+      "event": "Dissolution of the Soviet Union",
+      "blurb": "End of a superpower."
+    },
+    {
+      "id": "echo.rw.rwandan_genocide.1994",
+      "year": "1994",
+      "event": "Rwandan Genocide",
+      "blurb": "Mass killing; global shock."
+    },
+    {
+      "id": "echo.za.mandela_president.1994",
+      "year": "1994",
+      "event": "Nelson Mandela Elected President",
+      "blurb": "End of apartheid."
+    },
+    {
+      "id": "echo.env.kyoto_protocol.1997",
+      "year": "1997",
+      "event": "Kyoto Protocol",
+      "blurb": "First major climate treaty."
+    },
+    {
+      "id": "echo.us.9_11.2001",
+      "year": "2001",
+      "event": "September 11 Attacks",
+      "blurb": "Global security landscape shifts."
+    },
+    {
+      "id": "echo.science.hgp_completed.2003",
+      "year": "2003",
+      "event": "Human Genome Project Completed",
+      "blurb": "All human genes mapped."
+    },
+    {
+      "id": "echo.us.iraq_invasion.2003",
+      "year": "2003",
+      "event": "U.S. Invasion of Iraq",
+      "blurb": "War with lasting regional impact."
+    },
+    {
+      "id": "echo.us.katrina.2005",
+      "year": "2005",
+      "event": "Hurricane Katrina",
+      "blurb": "Systems failure; massive damage."
+    },
+    {
+      "id": "echo.finance.gfc.2008",
+      "year": "2008",
+      "event": "Global Financial Crisis",
+      "blurb": "Severe worldwide downturn."
+    },
+    {
+      "id": "echo.me.arab_spring.2010-2012",
+      "year": "2010–2012",
+      "event": "Arab Spring",
+      "blurb": "Uprisings reshape Middle East politics."
+    },
+    {
+      "id": "echo.us.bin_laden.2011",
+      "year": "2011",
+      "event": "Osama bin Laden Killed",
+      "blurb": "Symbolic turn in War on Terror."
+    },
+    {
+      "id": "echo.env.paris_agreement.2015",
+      "year": "2015",
+      "event": "Paris Climate Agreement",
+      "blurb": "Global climate accord."
+    },
+    {
+      "id": "echo.uk.brexit.2016",
+      "year": "2016",
+      "event": "Brexit Referendum",
+      "blurb": "UK votes to leave the EU."
+    },
+    {
+      "id": "echo.health.covid.2020-2022",
+      "year": "2020–2022",
+      "event": "COVID-19 Pandemic",
+      "blurb": "Global health & economic crisis."
+    },
+    {
+      "id": "echo.us.capitol_riot.2021",
+      "year": "2021",
+      "event": "U.S. Capitol Riot",
+      "blurb": "Assault on democratic process."
+    },
+    {
+      "id": "echo.ua.russia_invasion.2022",
+      "year": "2022",
+      "event": "Russian Invasion of Ukraine",
+      "blurb": "Major war altering geopolitics."
+    }
+  ]
+}
