@@ -222,6 +222,182 @@
     },
 
     {
+      "id": "rule.aspect.jupiter.uranus.conjunction.gemini.2025",
+      "type": "aspect_theme",
+      "match": {
+        "bodies_exact": ["Jupiter","Uranus"],
+        "aspect_name_exact": "conjunction",
+        "require_signs": true,
+        "body1_sign": "Gemini",
+        "body2_sign": "Gemini",
+        "orb_max_deg": 1.5,
+        "importance_min": 0.0
+      },
+      "priority": 320,
+      "copy": {
+        "title": "Jupiter ☌ Uranus in Gemini — Liberation Signal",
+        "future_theme": "Huge leaps in communication, space exploration, AI language and education systems. Expect sudden liberation moments."
+      },
+      "echo_ids": [
+        "echo.space.moon_landing.1969",
+        "echo.me.arab_spring.2010-2012"
+      ],
+      "notify": { "on": ["first_match_month"], "thread": "epoch" },
+      "tags": ["2025","gemini","breakthrough"]
+    },
+
+    {
+      "id": "rule.aspect.saturn.neptune.conjunction.aries.2026-2027",
+      "type": "aspect_theme",
+      "match": {
+        "bodies_exact": ["Saturn","Neptune"],
+        "aspect_name_exact": "conjunction",
+        "require_signs": true,
+        "body1_sign": "Aries",
+        "body2_sign": "Aries",
+        "orb_max_deg": 1.0,
+        "importance_min": 0.0
+      },
+      "priority": 330,
+      "copy": {
+        "title": "Saturn–Neptune Conjunction in Aries — Reality vs. Myth",
+        "future_theme": "Collapse of illusions in politics/ideology; new spiritual or health-related reorganizations."
+      },
+      "echo_ids": [
+        "echo.de.berlin_wall_falls.1989",
+        "echo.ru.russian_revolution.1917"
+      ],
+      "notify": { "on": ["first_match_month"], "thread": "epoch" },
+      "tags": ["2026","2027","aries","system-shift"]
+    },
+
+    {
+      "id": "rule.aspect.uranus.neptune.conjunction.aries.2032",
+      "type": "aspect_theme",
+      "match": {
+        "bodies_exact": ["Uranus","Neptune"],
+        "aspect_name_exact": "conjunction",
+        "require_signs": true,
+        "body1_sign": "Aries",
+        "body2_sign": "Aries",
+        "orb_max_deg": 1.0,
+        "importance_min": 0.0
+      },
+      "priority": 340,
+      "copy": {
+        "title": "Uranus–Neptune Conjunction in Aries — Renaissance Tech",
+        "future_theme": "Radical merging of human and machine consciousness (AI, biotech, VR). New renaissance of thought and spirituality."
+      },
+      "echo_ids": [
+        "echo.tech.internet_takeoff.1993",
+        "echo.age_of_exploration.1500s"
+      ],
+      "notify": { "on": ["first_match_month"], "thread": "epoch" },
+      "tags": ["2032","aries","renaissance"]
+    },
+
+    {
+      "id": "rule.aspect.saturn.pluto.conjunction.pisces.2039-2040",
+      "type": "aspect_theme",
+      "match": {
+        "bodies_exact": ["Saturn","Pluto"],
+        "aspect_name_exact": "conjunction",
+        "require_signs": true,
+        "body1_sign": "Pisces",
+        "body2_sign": "Pisces",
+        "orb_max_deg": 1.0,
+        "importance_min": 0.0
+      },
+      "priority": 360,
+      "copy": {
+        "title": "Saturn–Pluto Conjunction in Pisces — Deep Restructure",
+        "future_theme": "Massive global restructuring; potential ties to pandemics, oceans/water crises, and spiritual/ideological collapse."
+      },
+      "echo_ids": [
+        "echo.covid.pandemic.2020",
+        "echo.cold_war.birth.1947",
+        "echo.ww1.outbreak.1914"
+      ],
+      "notify": { "on": ["first_match_month"], "thread": "epoch" },
+      "tags": ["2039","2040","pisces","reset"]
+    },
+
+    {
+      "id": "rule.aspect.jupiter.saturn.conjunction.libra.2048",
+      "type": "aspect_theme",
+      "match": {
+        "bodies_exact": ["Jupiter","Saturn"],
+        "aspect_name_exact": "conjunction",
+        "require_signs": true,
+        "body1_sign": "Libra",
+        "body2_sign": "Libra",
+        "orb_max_deg": 1.0,
+        "importance_min": 0.0
+      },
+      "priority": 280,
+      "copy": {
+        "title": "Jupiter–Saturn in Libra — Scales of Order",
+        "future_theme": "Justice, law, and diplomacy reshaped — new global treaties, AI governance, climate law, and space accords."
+      },
+      "echo_ids": [
+        "echo.dotcom.bubble.collapse.2000",
+        "echo.air_era_start.2020"
+      ],
+      "notify": { "on": ["first_match_month"], "thread": "epoch" },
+      "tags": ["2048","libra","law"]
+    },
+
+    {
+      "id": "rule.aspect.uranus.pluto.opposition.2050s",
+      "type": "aspect_theme",
+      "match": {
+        "bodies_exact": ["Uranus","Pluto"],
+        "aspect_name_exact": "opposition",
+        "require_signs": false,
+        "orb_max_deg": 1.0,
+        "importance_min": 0.0
+      },
+      "priority": 240,
+      "copy": {
+        "title": "Uranus ☍ Pluto — Shock vs. Power",
+        "future_theme": "Explosive upheaval: authoritarian surges met by revolutionary technological and social breakthroughs."
+      },
+      "echo_ids": [
+        "echo.fascism_rise.1930s",
+        "echo.atomic_age.1945",
+        "echo.civil_rights.1960s"
+      ],
+      "notify": { "on": ["first_match_year"], "thread": "epoch" },
+      "tags": ["2050s","opposition","upheaval"]
+    },
+
+    {
+      "id": "rule.aspect.neptune.pluto.conjunction.aries.2060s",
+      "type": "aspect_theme",
+      "match": {
+        "bodies_exact": ["Neptune","Pluto"],
+        "aspect_name_exact": "conjunction",
+        "require_signs": true,
+        "body1_sign": "Aries",
+        "body2_sign": "Aries",
+        "orb_max_deg": 2.0,
+        "importance_min": 0.0
+      },
+      "priority": 500,
+      "copy": {
+        "title": "Neptune–Pluto Conjunction in Aries — Civilizational Reset",
+        "future_theme": "A whole new era akin to the Renaissance: merging spirituality and technology; cultural rebirth."
+      },
+      "echo_ids": [
+        "echo.renaissance.begins.1400s",
+        "echo.printing_press.1450s",
+        "echo.constantinople.fall.1453"
+      ],
+      "notify": { "on": ["first_match_year"], "thread": "epoch" },
+      "tags": ["2060s","aries","500-year-cycle"]
+    },
+
+    {
       "id": "dev.jupiter.trine.saturn.any",
       "type": "aspect_theme",
       "match": {
