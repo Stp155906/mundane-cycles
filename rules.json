@@ -197,13 +197,16 @@
     },
 
     {
-      "id": "rule.cycle.saturn.neptune.conjunction.aries",
-      "type": "cycle",
+      "id": "rule.aspect.saturn.neptune.conjunction.aries",
+      "type": "aspect_theme",
       "match": {
         "bodies_exact": ["Saturn","Neptune"],
         "aspect_name_exact": "conjunction",
-        "sign": "Aries",
-        "orb_max_deg": 1.0
+        "require_signs": true,
+        "body1_sign": "Aries",
+        "body2_sign": "Aries",
+        "orb_max_deg": 1.0,
+        "importance_min": 0.0
       },
       "priority": 58,
       "copy": {
@@ -217,26 +220,26 @@
       "notify": { "on": ["first_match_month"], "thread": "epoch" },
       "tags": ["endings","ideology","rebirth"]
     },
-    {
-  "id": "dev.jupiter.trine.saturn.any",
-  "type": "aspect_theme",
-  "match": {
-    "bodies_exact": ["Jupiter","Saturn"],
-    "aspect_name_exact": "trine",
-    "orb_max_deg": 6.5,
-    "importance_min": 0.0
-  },
-  "priority": 95,
-  "copy": {
-    "title": "Jupiter △ Saturn — Structure Meets Growth",
-    "future_theme": "Build the new on solid footing; patience turns expansion into lasting gains."
-  },
-  "echo_ids": [
-    "echo.eu.enlightenment.1600-1700s",
-    "echo.industry.industrial_revolution.18-19c"
-  ],
-  "tags": ["dev","wide","minor"]
-}
 
+    {
+      "id": "dev.jupiter.trine.saturn.any",
+      "type": "aspect_theme",
+      "match": {
+        "bodies_exact": ["Jupiter","Saturn"],
+        "aspect_name_exact": "trine",
+        "orb_max_deg": 6.5,
+        "importance_min": 0.0
+      },
+      "priority": 95,
+      "copy": {
+        "title": "Jupiter △ Saturn — Structure Meets Growth",
+        "future_theme": "Build the new on solid footing; patience turns expansion into lasting gains."
+      },
+      "echo_ids": [
+        "echo.eu.enlightenment.1600-1700s",
+        "echo.industry.industrial_revolution.18-19c"
+      ],
+      "tags": ["dev","wide","minor"]
+    }
   ]
 }
