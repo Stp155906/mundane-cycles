@@ -2,6 +2,28 @@
   "version": 1,
   "rules": [
     {
+      "id": "dev.sun-saturn-square.any-sign",
+      "type": "aspect_theme",
+      "match": {
+        "bodies_exact": ["Sun","Saturn"],
+        "aspect_name_exact": "square",
+        "require_signs": false,
+        "orb_max_deg": 3.0,
+        "importance_min": 0.0
+      },
+      "priority": 999,
+      "copy": {
+        "title": "Sun □ Saturn — Pressure Test",
+        "future_theme": "Deadlines, accountability, and structural reality-checks. Trim excess; strengthen the frame."
+      },
+      "echo_ids": [
+        "echo.finance.gfc.2008",
+        "echo.eu.congress_vienna.1815"
+      ],
+      "tags": ["dev","wide"]
+    },
+
+    {
       "id": "rule.lunation.full.taurus",
       "type": "moon_phase",
       "match": {
@@ -15,21 +37,12 @@
       },
       "echo_ids": [
         "echo.finance.great_depression.1929",
-        "echo.energy.opec_embargo.1973"
+        "echo.us.gold_rush.1848-1855"
       ],
-      "notify": {
-        "on": [
-          "day_start"
-        ],
-        "thread": "lunations"
-      },
-      "tags": [
-        "money",
-        "earth",
-        "resources",
-        "sustainability"
-      ]
+      "notify": { "on": ["day_start"], "thread": "lunations" },
+      "tags": ["money","earth","resources","sustainability"]
     },
+
     {
       "id": "rule.lunation.new.aries",
       "type": "moon_phase",
@@ -46,26 +59,15 @@
         "echo.us.american_revolution.1775-1783",
         "echo.fr.french_revolution.1789-1799"
       ],
-      "notify": {
-        "on": [
-          "day_start"
-        ],
-        "thread": "lunations"
-      },
-      "tags": [
-        "initiative",
-        "leadership",
-        "beginnings"
-      ]
+      "notify": { "on": ["day_start"], "thread": "lunations" },
+      "tags": ["initiative","leadership","beginnings"]
     },
+
     {
       "id": "rule.aspect.sun.square.saturn.strict_signs",
       "type": "aspect_theme",
       "match": {
-        "bodies_exact": [
-          "Sun",
-          "Saturn"
-        ],
+        "bodies_exact": ["Sun","Saturn"],
         "aspect_name_exact": "square",
         "require_signs": true,
         "body1_sign": "Scorpio",
@@ -80,28 +82,17 @@
       },
       "echo_ids": [
         "echo.finance.gfc.2008",
-        "echo.policy.1980.volcker"
+        "echo.eu.congress_vienna.1815"
       ],
-      "notify": {
-        "on": [
-          "first_match_week"
-        ],
-        "thread": "themes"
-      },
-      "tags": [
-        "discipline",
-        "limits",
-        "reality-check"
-      ]
+      "notify": { "on": ["first_match_week"], "thread": "themes" },
+      "tags": ["discipline","limits","reality-check"]
     },
+
     {
       "id": "rule.aspect.mars.opposition.neptune",
       "type": "aspect_theme",
       "match": {
-        "bodies_exact": [
-          "Mars",
-          "Neptune"
-        ],
+        "bodies_exact": ["Mars","Neptune"],
         "aspect_name_exact": "opposition",
         "orb_max_deg": 0.8,
         "importance_min": 0.6
@@ -115,26 +106,15 @@
         "echo.vn.fall_saigon.1975",
         "echo.me.arab_spring.2010-2012"
       ],
-      "notify": {
-        "on": [
-          "first_match_day"
-        ],
-        "thread": "themes"
-      },
-      "tags": [
-        "compassion",
-        "confusion",
-        "release"
-      ]
+      "notify": { "on": ["first_match_day"], "thread": "themes" },
+      "tags": ["compassion","confusion","release"]
     },
+
     {
       "id": "rule.aspect.mercury.square.neptune",
       "type": "aspect_theme",
       "match": {
-        "bodies_exact": [
-          "Mercury",
-          "Neptune"
-        ],
+        "bodies_exact": ["Mercury","Neptune"],
         "aspect_name_exact": "square",
         "orb_max_deg": 1.0,
         "importance_min": 0.55
@@ -145,29 +125,18 @@
         "future_theme": "Heightened imagination but foggy facts. Verify sources; tell cleaner stories."
       },
       "echo_ids": [
-        "echo.eu.berlin_wall_falls.1989",
+        "echo.de.berlin_wall_falls.1989",
         "echo.us.katrina.2005"
       ],
-      "notify": {
-        "on": [
-          "first_match_day"
-        ],
-        "thread": "themes"
-      },
-      "tags": [
-        "imagination",
-        "misinfo",
-        "clarity"
-      ]
+      "notify": { "on": ["first_match_day"], "thread": "themes" },
+      "tags": ["imagination","misinfo","clarity"]
     },
+
     {
       "id": "rule.aspect.venus.square.pluto",
       "type": "aspect_theme",
       "match": {
-        "bodies_exact": [
-          "Venus",
-          "Pluto"
-        ],
+        "bodies_exact": ["Venus","Pluto"],
         "aspect_name_exact": "square",
         "orb_max_deg": 1.0,
         "importance_min": 0.6
@@ -181,26 +150,15 @@
         "echo.fr.french_revolution.1789-1799",
         "echo.za.mandela_president.1994"
       ],
-      "notify": {
-        "on": [
-          "first_match_day"
-        ],
-        "thread": "themes"
-      },
-      "tags": [
-        "attachment",
-        "power",
-        "renewal"
-      ]
+      "notify": { "on": ["first_match_day"], "thread": "themes" },
+      "tags": ["attachment","power","renewal"]
     },
+
     {
       "id": "rule.aspect.jupiter.trine.uranus",
       "type": "aspect_theme",
       "match": {
-        "bodies_exact": [
-          "Jupiter",
-          "Uranus"
-        ],
+        "bodies_exact": ["Jupiter","Uranus"],
         "aspect_name_exact": "trine",
         "orb_max_deg": 1.0,
         "importance_min": 0.55
@@ -214,18 +172,10 @@
         "echo.space.moon_landing.1969",
         "echo.eu.enlightenment.1600-1700s"
       ],
-      "notify": {
-        "on": [
-          "first_match_week"
-        ],
-        "thread": "themes"
-      },
-      "tags": [
-        "breakthrough",
-        "innovation",
-        "expansion"
-      ]
+      "notify": { "on": ["first_match_week"], "thread": "themes" },
+      "tags": ["breakthrough","innovation","expansion"]
     },
+
     {
       "id": "rule.cycle.pluto.aquarius.checkin",
       "type": "cycle",
@@ -242,26 +192,15 @@
         "echo.us.declaration.1776",
         "echo.fr.french_revolution.1789-1799"
       ],
-      "notify": {
-        "on": [
-          "first_match_month"
-        ],
-        "thread": "epoch"
-      },
-      "tags": [
-        "revolution",
-        "tech",
-        "people-power"
-      ]
+      "notify": { "on": ["first_match_month"], "thread": "epoch" },
+      "tags": ["revolution","tech","people-power"]
     },
+
     {
       "id": "rule.cycle.saturn.neptune.conjunction.aries",
       "type": "cycle",
       "match": {
-        "bodies_exact": [
-          "Saturn",
-          "Neptune"
-        ],
+        "bodies_exact": ["Saturn","Neptune"],
         "aspect_name_exact": "conjunction",
         "sign": "Aries",
         "orb_max_deg": 1.0
@@ -275,17 +214,8 @@
         "echo.de.berlin_wall_falls.1989",
         "echo.ru.russian_revolution.1917"
       ],
-      "notify": {
-        "on": [
-          "first_match_month"
-        ],
-        "thread": "epoch"
-      },
-      "tags": [
-        "endings",
-        "ideology",
-        "rebirth"
-      ]
+      "notify": { "on": ["first_match_month"], "thread": "epoch" },
+      "tags": ["endings","ideology","rebirth"]
     }
   ]
 }
