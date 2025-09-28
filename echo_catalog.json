@@ -534,6 +534,87 @@
       "year": "2022",
       "event": "Russian Invasion of Ukraine",
       "blurb": "Major war altering geopolitics."
+    },
+
+    /* ---- Added echoes used by your new rules ---- */
+
+    {
+      "id": "echo.tech.internet_takeoff.1993",
+      "year": "1993",
+      "event": "Commercial Internet takes off",
+      "blurb": "Web and global networks scale into daily life; Uranus–Neptune era."
+    },
+    {
+      "id": "echo.age_of_exploration.1500s",
+      "year": "1500s",
+      "event": "Age of Exploration",
+      "blurb": "Maritime expansion and empirical inquiry reshape maps, trade, and knowledge."
+    },
+    {
+      "id": "echo.covid.pandemic.2020",
+      "year": "2020",
+      "event": "COVID-19 global pandemic",
+      "blurb": "Saturn–Pluto in Capricorn; systemic stress and institutional reset."
+    },
+    {
+      "id": "echo.cold_war.birth.1947",
+      "year": "1947",
+      "event": "Cold War consolidation",
+      "blurb": "Blocs harden; security and ideology define a new order."
+    },
+    {
+      "id": "echo.ww1.outbreak.1914",
+      "year": "1914",
+      "event": "Outbreak of World War I",
+      "blurb": "Great Power tensions ignite industrial warfare."
+    },
+    {
+      "id": "echo.dotcom.bubble.collapse.2000",
+      "year": "2000",
+      "event": "Dot-com bubble peaks and collapses",
+      "blurb": "Speculative excess gives way to platform consolidation and regulation."
+    },
+    {
+      "id": "echo.air_era_start.2020",
+      "year": "2020",
+      "event": "Jupiter–Saturn in Aquarius (Air era)",
+      "blurb": "Shift toward networks, digitization, and dematerialized economies."
+    },
+    {
+      "id": "echo.fascism_rise.1930s",
+      "year": "1930s",
+      "event": "Authoritarian rise",
+      "blurb": "Economic crisis and propaganda fuel fascist regimes across Europe."
+    },
+    {
+      "id": "echo.atomic_age.1945",
+      "year": "1945",
+      "event": "Atomic age begins",
+      "blurb": "Nuclear weapons redefine power, deterrence, and existential risk."
+    },
+    {
+      "id": "echo.civil_rights.1960s",
+      "year": "1960s",
+      "event": "Civil Rights & counterculture",
+      "blurb": "Grassroots movements challenge segregation, patriarchy, and war."
+    },
+    {
+      "id": "echo.renaissance.begins.1400s",
+      "year": "1400s",
+      "event": "Renaissance dawns",
+      "blurb": "Humanist arts and science revive across Europe; new civic ideals."
+    },
+    {
+      "id": "echo.printing_press.1450s",
+      "year": "1450s",
+      "event": "Printing press revolution",
+      "blurb": "Mass literacy and information diffusion transform culture and religion."
+    },
+    {
+      "id": "echo.constantinople.fall.1453",
+      "year": "1453",
+      "event": "Fall of Constantinople",
+      "blurb": "Trade routes and knowledge shift; precipitates European exploration."
     }
   ]
 }
