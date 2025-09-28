@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "id": "rule.lunation.full.taurus",
+      "type": "moon_phase",
+      "match": {
+        "phase": "full",
+        "sign": "Taurus"
+      },
+      "priority": 90,
+      "copy": {
+        "title_template": "Taurus Full Moon → {{date_local}}",
+        "future_theme": "Questions of money, food, and earth resources dominate. Time for collective revaluation of what’s sustainable."
+      },
+      "echo_ids": [
+        "echo.finance.great_depression.1929",
+        "echo.energy.opec_embargo.1973"
+      ],
+      "notify": {
+        "on": [
+          "day_start"
+        ],
+        "thread": "lunations"
+      },
+      "tags": [
+        "money",
+        "earth",
+        "resources",
+        "sustainability"
+      ]
+    },
+    {
+      "id": "rule.lunation.new.aries",
+      "type": "moon_phase",
+      "match": {
+        "phase": "new",
+        "sign": "Aries"
+      },
+      "priority": 85,
+      "copy": {
+        "title_template": "Aries New Moon → {{date_local}}",
+        "future_theme": "Initiation energy: courage, decisive starts, and bold leadership. Begin what requires momentum."
+      },
+      "echo_ids": [
+        "echo.us.american_revolution.1775-1783",
+        "echo.fr.french_revolution.1789-1799"
+      ],
+      "notify": {
+        "on": [
+          "day_start"
+        ],
+        "thread": "lunations"
+      },
+      "tags": [
+        "initiative",
+        "leadership",
+        "beginnings"
+      ]
+    },
+    {
+      "id": "rule.aspect.sun.square.saturn.strict_signs",
+      "type": "aspect_theme",
+      "match": {
+        "bodies_exact": [
+          "Sun",
+          "Saturn"
+        ],
+        "aspect_name_exact": "square",
+        "require_signs": true,
+        "body1_sign": "Scorpio",
+        "body2_sign": "Pisces",
+        "orb_max_deg": 1.0,
+        "importance_min": 0.65
+      },
+      "priority": 80,
+      "copy": {
+        "title": "Sun □ Saturn — Pressure Test",
+        "future_theme": "Deadlines, accountability, and structural reality-checks. Trim excess; strengthen the frame."
+      },
+      "echo_ids": [
+        "echo.finance.gfc.2008",
+        "echo.policy.1980.volcker"
+      ],
+      "notify": {
+        "on": [
+          "first_match_week"
+        ],
+        "thread": "themes"
+      },
+      "tags": [
+        "discipline",
+        "limits",
+        "reality-check"
+      ]
+    },
+    {
+      "id": "rule.aspect.mars.opposition.neptune",
+      "type": "aspect_theme",
+      "match": {
+        "bodies_exact": [
+          "Mars",
+          "Neptune"
+        ],
+        "aspect_name_exact": "opposition",
+        "orb_max_deg": 0.8,
+        "importance_min": 0.6
+      },
+      "priority": 70,
+      "copy": {
+        "title": "Mars ☍ Neptune — Fog vs. Force",
+        "future_theme": "Energy diffuses; motives blur. Choose compassion over compulsion; clarify before acting."
+      },
+      "echo_ids": [
+        "echo.vn.fall_saigon.1975",
+        "echo.me.arab_spring.2010-2012"
+      ],
+      "notify": {
+        "on": [
+          "first_match_day"
+        ],
+        "thread": "themes"
+      },
+      "tags": [
+        "compassion",
+        "confusion",
+        "release"
+      ]
+    },
+    {
+      "id": "rule.aspect.mercury.square.neptune",
+      "type": "aspect_theme",
+      "match": {
+        "bodies_exact": [
+          "Mercury",
+          "Neptune"
+        ],
+        "aspect_name_exact": "square",
+        "orb_max_deg": 1.0,
+        "importance_min": 0.55
+      },
+      "priority": 60,
+      "copy": {
+        "title": "Mercury □ Neptune — Signal vs. Noise",
+        "future_theme": "Heightened imagination but foggy facts. Verify sources; tell cleaner stories."
+      },
+      "echo_ids": [
+        "echo.eu.berlin_wall_falls.1989",
+        "echo.us.katrina.2005"
+      ],
+      "notify": {
+        "on": [
+          "first_match_day"
+        ],
+        "thread": "themes"
+      },
+      "tags": [
+        "imagination",
+        "misinfo",
+        "clarity"
+      ]
+    },
+    {
+      "id": "rule.aspect.venus.square.pluto",
+      "type": "aspect_theme",
+      "match": {
+        "bodies_exact": [
+          "Venus",
+          "Pluto"
+        ],
+        "aspect_name_exact": "square",
+        "orb_max_deg": 1.0,
+        "importance_min": 0.6
+      },
+      "priority": 65,
+      "copy": {
+        "title": "Venus □ Pluto — Power & Attachment",
+        "future_theme": "Deep transformations in bonds, money, and values. Release control; rebuild on truth."
+      },
+      "echo_ids": [
+        "echo.fr.french_revolution.1789-1799",
+        "echo.za.mandela_president.1994"
+      ],
+      "notify": {
+        "on": [
+          "first_match_day"
+        ],
+        "thread": "themes"
+      },
+      "tags": [
+        "attachment",
+        "power",
+        "renewal"
+      ]
+    },
+    {
+      "id": "rule.aspect.jupiter.trine.uranus",
+      "type": "aspect_theme",
+      "match": {
+        "bodies_exact": [
+          "Jupiter",
+          "Uranus"
+        ],
+        "aspect_name_exact": "trine",
+        "orb_max_deg": 1.0,
+        "importance_min": 0.55
+      },
+      "priority": 68,
+      "copy": {
+        "title": "Jupiter △ Uranus — Breakthrough Window",
+        "future_theme": "Positive disruption and leaps in tech, exploration, and learning."
+      },
+      "echo_ids": [
+        "echo.space.moon_landing.1969",
+        "echo.eu.enlightenment.1600-1700s"
+      ],
+      "notify": {
+        "on": [
+          "first_match_week"
+        ],
+        "thread": "themes"
+      },
+      "tags": [
+        "breakthrough",
+        "innovation",
+        "expansion"
+      ]
+    },
+    {
+      "id": "rule.cycle.pluto.aquarius.checkin",
+      "type": "cycle",
+      "match": {
+        "body": "Pluto",
+        "sign": "Aquarius"
+      },
+      "priority": 55,
+      "copy": {
+        "title": "2024–2026 → Pluto enters Aquarius",
+        "future_theme": "Radical upheaval of political systems and technology. People-power networks rise as old hierarchies fade."
+      },
+      "echo_ids": [
+        "echo.us.declaration.1776",
+        "echo.fr.french_revolution.1789-1799"
+      ],
+      "notify": {
+        "on": [
+          "first_match_month"
+        ],
+        "thread": "epoch"
+      },
+      "tags": [
+        "revolution",
+        "tech",
+        "people-power"
+      ]
+    },
+    {
+      "id": "rule.cycle.saturn.neptune.conjunction.aries",
+      "type": "cycle",
+      "match": {
+        "bodies_exact": [
+          "Saturn",
+          "Neptune"
+        ],
+        "aspect_name_exact": "conjunction",
+        "sign": "Aries",
+        "orb_max_deg": 1.0
+      },
+      "priority": 58,
+      "copy": {
+        "title": "Saturn–Neptune Conjunction in Aries",
+        "future_theme": "Ideologies dissolve and re-form. New collective movements emerge from endings."
+      },
+      "echo_ids": [
+        "echo.de.berlin_wall_falls.1989",
+        "echo.ru.russian_revolution.1917"
+      ],
+      "notify": {
+        "on": [
+          "first_match_month"
+        ],
+        "thread": "epoch"
+      },
+      "tags": [
+        "endings",
+        "ideology",
+        "rebirth"
+      ]
+    }
+  ]
+}
