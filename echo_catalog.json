@@ -535,9 +535,6 @@
       "event": "Russian Invasion of Ukraine",
       "blurb": "Major war altering geopolitics."
     },
-
-    /* ---- Added echoes used by your new rules ---- */
-
     {
       "id": "echo.tech.internet_takeoff.1993",
       "year": "1993",
@@ -615,6 +612,42 @@
       "year": "1453",
       "event": "Fall of Constantinople",
       "blurb": "Trade routes and knowledge shift; precipitates European exploration."
+    },
+    {
+      "id": "echo.public_health.sanitation.1800s",
+      "year": "1800s",
+      "event": "Modern sanitation movement",
+      "blurb": "Public health infrastructure, clean water, and urban reforms."
+    },
+    {
+      "id": "echo.lean.manufacturing.20c",
+      "year": "20th century",
+      "event": "Lean manufacturing & quality revolutions",
+      "blurb": "Process improvement reduces waste and increases reliability."
+    },
+    {
+      "id": "echo.hollywood.golden_age.1930s",
+      "year": "1930s–1950s",
+      "event": "Hollywood Golden Age",
+      "blurb": "Studio era; star power, spectacle, and mass culture."
+    },
+    {
+      "id": "echo.culture.woodstock.1969",
+      "year": "1969",
+      "event": "Woodstock Festival",
+      "blurb": "Counterculture apex; music as social force."
+    },
+    {
+      "id": "echo.us.new_deal.1933",
+      "year": "1933–1939",
+      "event": "The New Deal",
+      "blurb": "Social safety nets and public works reshape the economy."
+    },
+    {
+      "id": "echo.hospital.nursing.modern.19c",
+      "year": "19th century",
+      "event": "Modern nursing & hospitals",
+      "blurb": "Florence Nightingale and professionalized care models."
     }
   ]
 }
