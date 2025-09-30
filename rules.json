@@ -5,10 +5,7 @@
       "id": "dev.sun-saturn-square.any-sign",
       "type": "aspect_theme",
       "match": {
-        "bodies_exact": [
-          "Sun",
-          "Saturn"
-        ],
+        "bodies_exact": ["Sun","Saturn"],
         "aspect_name_exact": "square",
         "require_signs": false,
         "orb_max_deg": 3.0,
@@ -17,26 +14,16 @@
       "priority": 999,
       "copy": {
         "title": "Sun □ Saturn — Pressure Test",
-        "future_theme": "Deadlines, accountability, and structural reality‑checks. Trim excess; strengthen the frame."
+        "future_theme": "Deadlines, accountability, and structural reality-checks. Trim excess; strengthen the frame."
       },
-      "echo_ids": [
-        "echo.finance.gfc.2008",
-        "echo.eu.congress_vienna.1815"
-      ],
-      "tags": [
-        "discipline",
-        "limits",
-        "reality-check"
-      ]
+      "echo_ids": ["echo.finance.gfc.2008","echo.eu.congress_vienna.1815"],
+      "tags": ["discipline","limits","reality-check"]
     },
     {
       "id": "dev.jupiter.trine.saturn.any",
       "type": "aspect_theme",
       "match": {
-        "bodies_exact": [
-          "Jupiter",
-          "Saturn"
-        ],
+        "bodies_exact": ["Jupiter","Saturn"],
         "aspect_name_exact": "trine",
         "orb_max_deg": 6.5,
         "importance_min": 0.0
@@ -46,23 +33,14 @@
         "title": "Jupiter △ Saturn — Structure Meets Growth",
         "future_theme": "Build the new on solid footing; patience turns expansion into lasting gains."
       },
-      "echo_ids": [
-        "echo.eu.enlightenment.1600-1700s",
-        "echo.industry.industrial_revolution.18-19c"
-      ],
-      "tags": [
-        "breakthrough",
-        "sustainable-growth"
-      ]
+      "echo_ids": ["echo.eu.enlightenment.1600-1700s","echo.industry.industrial_revolution.18-19c"],
+      "tags": ["breakthrough","sustainable-growth"]
     },
     {
       "id": "dev.jupiter.square.saturn.any",
       "type": "aspect_theme",
       "match": {
-        "bodies_exact": [
-          "Jupiter",
-          "Saturn"
-        ],
+        "bodies_exact": ["Jupiter","Saturn"],
         "aspect_name_exact": "square",
         "orb_max_deg": 3.0,
         "importance_min": 0.0
@@ -72,23 +50,14 @@
         "title": "Jupiter □ Saturn — Stress Test of Ambitions",
         "future_theme": "Deadlines, limits, and budget reality. Trim excess; reinforce the frame before scaling."
       },
-      "echo_ids": [
-        "echo.finance.great_depression.1929",
-        "echo.covid.pandemic.2020"
-      ],
-      "tags": [
-        "constraint",
-        "reality-check"
-      ]
+      "echo_ids": ["echo.finance.great_depression.1929","echo.covid.pandemic.2020"],
+      "tags": ["constraint","reality-check"]
     },
     {
       "id": "dev.mercury.square.neptune.any",
       "type": "aspect_theme",
       "match": {
-        "bodies_exact": [
-          "Mercury",
-          "Neptune"
-        ],
+        "bodies_exact": ["Mercury","Neptune"],
         "aspect_name_exact": "square",
         "orb_max_deg": 1.0,
         "importance_min": 0.55
@@ -98,24 +67,14 @@
         "title": "Mercury □ Neptune — Signals vs. Noise",
         "future_theme": "Hype, rumors, and dream logic. Verify sources; protect attention and boundaries."
       },
-      "echo_ids": [
-        "echo.tech.printing_press.1440s",
-        "echo.tech.internet_takeoff.1993"
-      ],
-      "tags": [
-        "misinfo",
-        "attention",
-        "story"
-      ]
+      "echo_ids": ["echo.tech.printing_press.1440s","echo.tech.internet_takeoff.1993"],
+      "tags": ["misinfo","attention","story"]
     },
     {
       "id": "dev.mercury.trine.uranus.any",
       "type": "aspect_theme",
       "match": {
-        "bodies_exact": [
-          "Mercury",
-          "Uranus"
-        ],
+        "bodies_exact": ["Mercury","Uranus"],
         "aspect_name_exact": "trine",
         "orb_max_deg": 3.0,
         "importance_min": 0.0
@@ -125,24 +84,14 @@
         "title": "Mercury △ Uranus — Snap Insight",
         "future_theme": "Breakthrough thinking and clean hacks. Ship the clever version, not the heavy one."
       },
-      "echo_ids": [
-        "echo.aviation.wright.1903",
-        "echo.tech.telephone.1876"
-      ],
-      "tags": [
-        "insight",
-        "invention",
-        "speed"
-      ]
+      "echo_ids": ["echo.aviation.wright.1903","echo.tech.telephone.1876"],
+      "tags": ["insight","invention","speed"]
     },
     {
       "id": "dev.venus.trine.neptune.any",
       "type": "aspect_theme",
       "match": {
-        "bodies_exact": [
-          "Venus",
-          "Neptune"
-        ],
+        "bodies_exact": ["Venus","Neptune"],
         "aspect_name_exact": "trine",
         "orb_max_deg": 3.0,
         "importance_min": 0.0
@@ -152,24 +101,14 @@
         "title": "Venus △ Neptune — Harmony Flow",
         "future_theme": "Soft focus, aesthetic unity, and compassionate relating. Let art and kindness lead."
       },
-      "echo_ids": [
-        "echo.renaissance.begins.1400s",
-        "echo.tech.printing_press.1440s"
-      ],
-      "tags": [
-        "aesthetic",
-        "compassion",
-        "unity"
-      ]
+      "echo_ids": ["echo.renaissance.begins.1400s","echo.tech.printing_press.1440s"],
+      "tags": ["aesthetic","compassion","unity"]
     },
     {
       "id": "dev.mars.square.neptune.any",
       "type": "aspect_theme",
       "match": {
-        "bodies_exact": [
-          "Mars",
-          "Neptune"
-        ],
+        "bodies_exact": ["Mars","Neptune"],
         "aspect_name_exact": "square",
         "orb_max_deg": 2.0,
         "importance_min": 0.0
@@ -179,643 +118,537 @@
         "title": "Mars □ Neptune — Vapor Trails",
         "future_theme": "Scattered effort, leaks, and mirages. Pause, clarify the target, then act with precision."
       },
-      "echo_ids": [
-        "echo.vn.vietnam_war.1955-1975",
-        "echo.ua.chernobyl.1986"
-      ],
-      "tags": [
-        "leaks",
-        "fog",
-        "precision"
-      ]
+      "echo_ids": ["echo.vn.vietnam_war.1955-1975","echo.ua.chernobyl.1986"],
+      "tags": ["leaks","fog","precision"]
     },
+
+    /* ======================
+       LUNATIONS — GENERIC
+       ====================== */
+
     {
       "id": "rule.lunation.full.any",
       "type": "moon_phase",
-      "match": {
-        "phase": "full"
-      },
+      "match": { "phase": "full" },
       "priority": 910,
       "copy": {
         "title_template": "Full Moon → {{date_local}}",
         "future_theme": "Culminations and revelations. What began at the last New Moon comes to light."
       },
-      "echo_ids": [
-        "echo.industry.industrial_revolution.18-19c",
-        "echo.tech.internet_takeoff.1993"
-      ],
-      "tags": [
-        "culmination",
-        "reveal"
-      ]
+      "echo_ids": ["echo.industry.industrial_revolution.18-19c","echo.tech.internet_takeoff.1993"],
+      "tags": ["culmination","reveal"]
     },
     {
       "id": "rule.lunation.new.any",
       "type": "moon_phase",
-      "match": {
-        "phase": "new"
-      },
+      "match": { "phase": "new" },
       "priority": 890,
       "copy": {
         "title_template": "New Moon → {{date_local}}",
         "future_theme": "Reset and seed time. Clarify intention; start small, iterate, and grow."
       },
-      "echo_ids": [
-        "echo.eu.enlightenment.1600-1700s",
-        "echo.renaissance.begins.1400s"
-      ],
-      "tags": [
-        "beginnings",
-        "intentions"
-      ]
+      "echo_ids": ["echo.eu.enlightenment.1600-1700s","echo.renaissance.begins.1400s"],
+      "tags": ["beginnings","intentions"]
     },
+
+    /* ======================
+       FULL MOON — SIGN-SPECIFIC (12)
+       ====================== */
+
     {
       "id": "rule.lunation.full.aries",
       "type": "moon_phase",
-      "match": {
-        "phase": "full",
-        "sign": "Aries"
-      },
+      "match": { "phase": "full", "sign": "Aries" },
       "priority": 920,
       "copy": {
-        "title_template": "Aries Full Moon → {date_local}",
+        "title_template": "Aries Full Moon → {{date_local}}",
         "future_theme": "Courage peaks; decisive confrontations clarify direction. Lead with integrity."
       },
-      "echo_ids": [
-        "echo.us.american_revolution.1775-1783",
-        "echo.fr.french_revolution.1789-1799"
-      ],
-      "tags": [
-        "full_moon",
-        "aries"
-      ]
+      "echo_ids": ["echo.us.american_revolution.1775-1783","echo.fr.french_revolution.1789-1799"],
+      "tags": ["full_moon","aries"]
     },
     {
       "id": "rule.lunation.full.taurus",
       "type": "moon_phase",
-      "match": {
-        "phase": "full",
-        "sign": "Taurus"
-      },
+      "match": { "phase": "full", "sign": "Taurus" },
       "priority": 920,
       "copy": {
-        "title_template": "Taurus Full Moon → {date_local}",
-        "future_theme": "Money, food, and earth resources dominate. Time to re‑price what’s sustainable."
+        "title_template": "Taurus Full Moon → {{date_local}}",
+        "future_theme": "Money, food, and earth resources dominate. Time to re-price what’s sustainable."
       },
-      "echo_ids": [
-        "echo.finance.great_depression.1929",
-        "echo.us.gold_rush.1848-1855"
-      ],
-      "tags": [
-        "full_moon",
-        "taurus"
-      ]
+      "echo_ids": ["echo.finance.great_depression.1929","echo.us.gold_rush.1848-1855"],
+      "tags": ["full_moon","taurus"]
     },
     {
       "id": "rule.lunation.full.gemini",
       "type": "moon_phase",
-      "match": {
-        "phase": "full",
-        "sign": "Gemini"
-      },
+      "match": { "phase": "full", "sign": "Gemini" },
       "priority": 920,
       "copy": {
-        "title_template": "Gemini Full Moon → {date_local}",
+        "title_template": "Gemini Full Moon → {{date_local}}",
         "future_theme": "Information culminates: announcements, releases, and media cycles peak."
       },
-      "echo_ids": [
-        "echo.tech.printing_press.1440s",
-        "echo.tech.internet_takeoff.1993"
-      ],
-      "tags": [
-        "full_moon",
-        "gemini"
-      ]
+      "echo_ids": ["echo.tech.printing_press.1440s","echo.tech.internet_takeoff.1993"],
+      "tags": ["full_moon","gemini"]
     },
     {
       "id": "rule.lunation.full.cancer",
       "type": "moon_phase",
-      "match": {
-        "phase": "full",
-        "sign": "Cancer"
-      },
+      "match": { "phase": "full", "sign": "Cancer" },
       "priority": 920,
       "copy": {
-        "title_template": "Cancer Full Moon → {date_local}",
+        "title_template": "Cancer Full Moon → {{date_local}}",
         "future_theme": "Home, food, and care systems come into focus. Nurture what truly supports you."
       },
-      "echo_ids": [
-        "echo.us.new_deal.1933",
-        "echo.public_health.sanitation.1800s"
-      ],
-      "tags": [
-        "full_moon",
-        "cancer"
-      ]
+      "echo_ids": ["echo.us.new_deal.1933","echo.public_health.sanitation.1800s"],
+      "tags": ["full_moon","cancer"]
     },
     {
       "id": "rule.lunation.full.leo",
       "type": "moon_phase",
-      "match": {
-        "phase": "full",
-        "sign": "Leo"
-      },
+      "match": { "phase": "full", "sign": "Leo" },
       "priority": 920,
       "copy": {
-        "title_template": "Leo Full Moon → {date_local}",
+        "title_template": "Leo Full Moon → {{date_local}}",
         "future_theme": "Spotlight moments: recognition, pride, and creative showings reach a peak."
       },
-      "echo_ids": [
-        "echo.hollywood.golden_age.1930s",
-        "echo.culture.woodstock.1969"
-      ],
-      "tags": [
-        "full_moon",
-        "leo"
-      ]
+      "echo_ids": ["echo.hollywood.golden_age.1930s","echo.culture.woodstock.1969"],
+      "tags": ["full_moon","leo"]
     },
     {
       "id": "rule.lunation.full.virgo",
       "type": "moon_phase",
-      "match": {
-        "phase": "full",
-        "sign": "Virgo"
-      },
+      "match": { "phase": "full", "sign": "Virgo" },
       "priority": 920,
       "copy": {
-        "title_template": "Virgo Full Moon → {date_local}",
+        "title_template": "Virgo Full Moon → {{date_local}}",
         "future_theme": "Health, work, and process culminate. Refine the system; cut friction."
       },
-      "echo_ids": [
-        "echo.public_health.sanitation.1800s",
-        "echo.lean.manufacturing.20c"
-      ],
-      "tags": [
-        "full_moon",
-        "virgo"
-      ]
+      "echo_ids": ["echo.public_health.sanitation.1800s","echo.lean.manufacturing.20c"],
+      "tags": ["full_moon","virgo"]
     },
     {
       "id": "rule.lunation.full.libra",
       "type": "moon_phase",
-      "match": {
-        "phase": "full",
-        "sign": "Libra"
-      },
+      "match": { "phase": "full", "sign": "Libra" },
       "priority": 920,
       "copy": {
-        "title_template": "Libra Full Moon → {date_local}",
-        "future_theme": "Agreements mature; justice themes peak. Re‑balance rights and duties."
+        "title_template": "Libra Full Moon → {{date_local}}",
+        "future_theme": "Agreements mature; justice themes peak. Re-balance rights and duties."
       },
-      "echo_ids": [
-        "echo.un.founding.1945",
-        "echo.un.udhr.1948"
-      ],
-      "tags": [
-        "full_moon",
-        "libra"
-      ]
+      "echo_ids": ["echo.un.founding.1945","echo.un.udhr.1948"],
+      "tags": ["full_moon","libra"]
     },
     {
       "id": "rule.lunation.full.scorpio",
       "type": "moon_phase",
-      "match": {
-        "phase": "full",
-        "sign": "Scorpio"
-      },
+      "match": { "phase": "full", "sign": "Scorpio" },
       "priority": 920,
       "copy": {
-        "title_template": "Scorpio Full Moon → {date_local}",
+        "title_template": "Scorpio Full Moon → {{date_local}}",
         "future_theme": "Debt, power, and regeneration stories climax. Release what’s toxic; recommit to truth."
       },
-      "echo_ids": [
-        "echo.finance.gfc.2008",
-        "echo.za.mandela_president.1994"
-      ],
-      "tags": [
-        "full_moon",
-        "scorpio"
-      ]
+      "echo_ids": ["echo.finance.gfc.2008","echo.za.mandela_president.1994"],
+      "tags": ["full_moon","scorpio"]
     },
     {
       "id": "rule.lunation.full.sagittarius",
       "type": "moon_phase",
-      "match": {
-        "phase": "full",
-        "sign": "Sagittarius"
-      },
+      "match": { "phase": "full", "sign": "Sagittarius" },
       "priority": 920,
       "copy": {
-        "title_template": "Sagittarius Full Moon → {date_local}",
+        "title_template": "Sagittarius Full Moon → {{date_local}}",
         "future_theme": "Publishing, travel, law, and belief culminate. Big vision meets receipts."
       },
-      "echo_ids": [
-        "echo.age_of_exploration.1500s",
-        "echo.space.moon_landing.1969"
-      ],
-      "tags": [
-        "full_moon",
-        "sagittarius"
-      ]
+      "echo_ids": ["echo.age_of_exploration.1500s","echo.space.moon_landing.1969"],
+      "tags": ["full_moon","sagittarius"]
     },
     {
       "id": "rule.lunation.full.capricorn",
       "type": "moon_phase",
-      "match": {
-        "phase": "full",
-        "sign": "Capricorn"
-      },
+      "match": { "phase": "full", "sign": "Capricorn" },
       "priority": 920,
       "copy": {
-        "title_template": "Capricorn Full Moon → {date_local}",
-        "future_theme": "Institutions and achievement cycles peak. Re‑assess structures and accountability."
+        "title_template": "Capricorn Full Moon → {{date_local}}",
+        "future_theme": "Institutions and achievement cycles peak. Re-assess structures and accountability."
       },
-      "echo_ids": [
-        "echo.cold_war.birth.1947",
-        "echo.dotcom.bubble.collapse.2000"
-      ],
-      "tags": [
-        "full_moon",
-        "capricorn"
-      ]
+      "echo_ids": ["echo.cold_war.birth.1947","echo.dotcom.bubble.collapse.2000"],
+      "tags": ["full_moon","capricorn"]
     },
     {
       "id": "rule.lunation.full.aquarius",
       "type": "moon_phase",
-      "match": {
-        "phase": "full",
-        "sign": "Aquarius"
-      },
+      "match": { "phase": "full", "sign": "Aquarius" },
       "priority": 920,
       "copy": {
-        "title_template": "Aquarius Full Moon → {date_local}",
+        "title_template": "Aquarius Full Moon → {{date_local}}",
         "future_theme": "Networks, tech, and collective action crescendo. Prototype the future in public."
       },
-      "echo_ids": [
-        "echo.eu.enlightenment.1600-1700s",
-        "echo.tech.internet_takeoff.1993"
-      ],
-      "tags": [
-        "full_moon",
-        "aquarius"
-      ]
+      "echo_ids": ["echo.eu.enlightenment.1600-1700s","echo.tech.internet_takeoff.1993"],
+      "tags": ["full_moon","aquarius"]
     },
     {
       "id": "rule.lunation.full.pisces",
       "type": "moon_phase",
-      "match": {
-        "phase": "full",
-        "sign": "Pisces"
-      },
+      "match": { "phase": "full", "sign": "Pisces" },
       "priority": 920,
       "copy": {
-        "title_template": "Pisces Full Moon → {date_local}",
+        "title_template": "Pisces Full Moon → {{date_local}}",
         "future_theme": "Emotional tides crest; spiritual/service themes culminate. Rest, release, restore."
       },
-      "echo_ids": [
-        "echo.covid.pandemic.2020",
-        "echo.hospital.nursing.modern.19c"
-      ],
-      "tags": [
-        "full_moon",
-        "pisces"
-      ]
+      "echo_ids": ["echo.covid.pandemic.2020","echo.hospital.nursing.modern.19c"],
+      "tags": ["full_moon","pisces"]
     },
+
+    /* ======================
+       NEW MOON — SIGN-SPECIFIC (12)
+       ====================== */
+
     {
       "id": "rule.lunation.new.aries",
       "type": "moon_phase",
-      "match": {
-        "phase": "new",
-        "sign": "Aries"
-      },
+      "match": { "phase": "new", "sign": "Aries" },
       "priority": 900,
       "copy": {
-        "title_template": "Aries New Moon → {date_local}",
+        "title_template": "Aries New Moon → {{date_local}}",
         "future_theme": "Initiation energy: courage, decisive starts, and bold leadership. Begin what needs momentum."
       },
-      "echo_ids": [
-        "echo.us.american_revolution.1775-1783",
-        "echo.fr.french_revolution.1789-1799"
-      ],
-      "tags": [
-        "new_moon",
-        "aries"
-      ]
+      "echo_ids": ["echo.us.american_revolution.1775-1783","echo.fr.french_revolution.1789-1799"],
+      "tags": ["new_moon","aries"]
     },
     {
       "id": "rule.lunation.new.taurus",
       "type": "moon_phase",
-      "match": {
-        "phase": "new",
-        "sign": "Taurus"
-      },
+      "match": { "phase": "new", "sign": "Taurus" },
       "priority": 900,
       "copy": {
-        "title_template": "Taurus New Moon → {date_local}",
+        "title_template": "Taurus New Moon → {{date_local}}",
         "future_theme": "Plant durable value: finances, food systems, land, and material security."
       },
-      "echo_ids": [
-        "echo.us.gold_rush.1848-1855",
-        "echo.finance.great_depression.1929"
-      ],
-      "tags": [
-        "new_moon",
-        "taurus"
-      ]
+      "echo_ids": ["echo.us.gold_rush.1848-1855","echo.finance.great_depression.1929"],
+      "tags": ["new_moon","taurus"]
     },
     {
       "id": "rule.lunation.new.gemini",
       "type": "moon_phase",
-      "match": {
-        "phase": "new",
-        "sign": "Gemini"
-      },
+      "match": { "phase": "new", "sign": "Gemini" },
       "priority": 900,
       "copy": {
-        "title_template": "Gemini New Moon → {date_local}",
+        "title_template": "Gemini New Moon → {{date_local}}",
         "future_theme": "Announce, publish, connect. Start a message with room to iterate."
       },
-      "echo_ids": [
-        "echo.tech.printing_press.1440s",
-        "echo.tech.internet_takeoff.1993"
-      ],
-      "tags": [
-        "new_moon",
-        "gemini"
-      ]
+      "echo_ids": ["echo.tech.printing_press.1440s","echo.tech.internet_takeoff.1993"],
+      "tags": ["new_moon","gemini"]
     },
     {
       "id": "rule.lunation.new.cancer",
       "type": "moon_phase",
-      "match": {
-        "phase": "new",
-        "sign": "Cancer"
-      },
+      "match": { "phase": "new", "sign": "Cancer" },
       "priority": 900,
       "copy": {
-        "title_template": "Cancer New Moon → {date_local}",
+        "title_template": "Cancer New Moon → {{date_local}}",
         "future_theme": "Nurture new roots: home, family, food, and care projects begin."
       },
-      "echo_ids": [
-        "echo.us.new_deal.1933",
-        "echo.public_health.sanitation.1800s"
-      ],
-      "tags": [
-        "new_moon",
-        "cancer"
-      ]
+      "echo_ids": ["echo.us.new_deal.1933","echo.public_health.sanitation.1800s"],
+      "tags": ["new_moon","cancer"]
     },
     {
       "id": "rule.lunation.new.leo",
       "type": "moon_phase",
-      "match": {
-        "phase": "new",
-        "sign": "Leo"
-      },
+      "match": { "phase": "new", "sign": "Leo" },
       "priority": 900,
       "copy": {
-        "title_template": "Leo New Moon → {date_local}",
-        "future_theme": "Create boldly. Launch performances, brands, and heart‑led work."
+        "title_template": "Leo New Moon → {{date_local}}",
+        "future_theme": "Create boldly. Launch performances, brands, and heart-led work."
       },
-      "echo_ids": [
-        "echo.hollywood.golden_age.1930s",
-        "echo.culture.woodstock.1969"
-      ],
-      "tags": [
-        "new_moon",
-        "leo"
-      ]
+      "echo_ids": ["echo.hollywood.golden_age.1930s","echo.culture.woodstock.1969"],
+      "tags": ["new_moon","leo"]
     },
     {
       "id": "rule.lunation.new.virgo",
       "type": "moon_phase",
-      "match": {
-        "phase": "new",
-        "sign": "Virgo"
-      },
+      "match": { "phase": "new", "sign": "Virgo" },
       "priority": 900,
       "copy": {
-        "title_template": "Virgo New Moon → {date_local}",
+        "title_template": "Virgo New Moon → {{date_local}}",
         "future_theme": "Start systems that reduce friction: health, tools, workflows."
       },
-      "echo_ids": [
-        "echo.lean.manufacturing.20c",
-        "echo.public_health.sanitation.1800s"
-      ],
-      "tags": [
-        "new_moon",
-        "virgo"
-      ]
+      "echo_ids": ["echo.lean.manufacturing.20c","echo.public_health.sanitation.1800s"],
+      "tags": ["new_moon","virgo"]
     },
     {
       "id": "rule.lunation.new.libra",
       "type": "moon_phase",
-      "match": {
-        "phase": "new",
-        "sign": "Libra"
-      },
+      "match": { "phase": "new", "sign": "Libra" },
       "priority": 900,
       "copy": {
-        "title_template": "Libra New Moon → {date_local}",
+        "title_template": "Libra New Moon → {{date_local}}",
         "future_theme": "Begin negotiations and partnerships. Draft fair terms."
       },
-      "echo_ids": [
-        "echo.un.founding.1945",
-        "echo.un.udhr.1948"
-      ],
-      "tags": [
-        "new_moon",
-        "libra"
-      ]
+      "echo_ids": ["echo.un.founding.1945","echo.un.udhr.1948"],
+      "tags": ["new_moon","libra"]
     },
     {
       "id": "rule.lunation.new.scorpio",
       "type": "moon_phase",
-      "match": {
-        "phase": "new",
-        "sign": "Scorpio"
-      },
+      "match": { "phase": "new", "sign": "Scorpio" },
       "priority": 900,
       "copy": {
-        "title_template": "Scorpio New Moon → {date_local}",
-        "future_theme": "Commit to deep change. Detox, debt strategy, and truth‑telling starts."
+        "title_template": "Scorpio New Moon → {{date_local}}",
+        "future_theme": "Commit to deep change. Detox, debt strategy, and truth-telling starts."
       },
-      "echo_ids": [
-        "echo.finance.gfc.2008",
-        "echo.za.mandela_president.1994"
-      ],
-      "tags": [
-        "new_moon",
-        "scorpio"
-      ]
+      "echo_ids": ["echo.finance.gfc.2008","echo.za.mandela_president.1994"],
+      "tags": ["new_moon","scorpio"]
     },
     {
       "id": "rule.lunation.new.sagittarius",
       "type": "moon_phase",
-      "match": {
-        "phase": "new",
-        "sign": "Sagittarius"
-      },
+      "match": { "phase": "new", "sign": "Sagittarius" },
       "priority": 900,
       "copy": {
-        "title_template": "Sagittarius New Moon → {date_local}",
+        "title_template": "Sagittarius New Moon → {{date_local}}",
         "future_theme": "Kick off study, travel, legal, or publishing tracks."
       },
-      "echo_ids": [
-        "echo.age_of_exploration.1500s",
-        "echo.space.moon_landing.1969"
-      ],
-      "tags": [
-        "new_moon",
-        "sagittarius"
-      ]
+      "echo_ids": ["echo.age_of_exploration.1500s","echo.space.moon_landing.1969"],
+      "tags": ["new_moon","sagittarius"]
     },
     {
       "id": "rule.lunation.new.capricorn",
       "type": "moon_phase",
-      "match": {
-        "phase": "new",
-        "sign": "Capricorn"
-      },
+      "match": { "phase": "new", "sign": "Capricorn" },
       "priority": 900,
       "copy": {
-        "title_template": "Capricorn New Moon → {date_local}",
+        "title_template": "Capricorn New Moon → {{date_local}}",
         "future_theme": "Set structural goals; start accountability frameworks that can scale."
       },
-      "echo_ids": [
-        "echo.cold_war.birth.1947",
-        "echo.dotcom.bubble.collapse.2000"
-      ],
-      "tags": [
-        "new_moon",
-        "capricorn"
-      ]
+      "echo_ids": ["echo.cold_war.birth.1947","echo.dotcom.bubble.collapse.2000"],
+      "tags": ["new_moon","capricorn"]
     },
     {
       "id": "rule.lunation.new.aquarius",
       "type": "moon_phase",
-      "match": {
-        "phase": "new",
-        "sign": "Aquarius"
-      },
+      "match": { "phase": "new", "sign": "Aquarius" },
       "priority": 900,
       "copy": {
-        "title_template": "Aquarius New Moon → {date_local}",
+        "title_template": "Aquarius New Moon → {{date_local}}",
         "future_theme": "Prototype the future with peers: networks, tech, and social experiments."
       },
-      "echo_ids": [
-        "echo.eu.enlightenment.1600-1700s",
-        "echo.tech.internet_takeoff.1993"
-      ],
-      "tags": [
-        "new_moon",
-        "aquarius"
-      ]
+      "echo_ids": ["echo.eu.enlightenment.1600-1700s","echo.tech.internet_takeoff.1993"],
+      "tags": ["new_moon","aquarius"]
     },
     {
       "id": "rule.lunation.new.pisces",
       "type": "moon_phase",
-      "match": {
-        "phase": "new",
-        "sign": "Pisces"
-      },
+      "match": { "phase": "new", "sign": "Pisces" },
       "priority": 900,
       "copy": {
-        "title_template": "Pisces New Moon → {date_local}",
+        "title_template": "Pisces New Moon → {{date_local}}",
         "future_theme": "Begin compassionate, artistic, or healing work. Leave space for the unseen to guide."
       },
-      "echo_ids": [
-        "echo.covid.pandemic.2020",
-        "echo.hospital.nursing.modern.19c"
-      ],
-      "tags": [
-        "new_moon",
-        "pisces"
-      ]
+      "echo_ids": ["echo.covid.pandemic.2020","echo.hospital.nursing.modern.19c"],
+      "tags": ["new_moon","pisces"]
     },
+
+    /* ======================
+       ECLIPSES — GENERIC (will be used if no sign-specific exists)
+       ====================== */
+
     {
       "id": "rule.eclipse.solar.any",
       "type": "moon_phase",
-      "match": {
-        "phase": "solar_eclipse"
-      },
+      "match": { "phase": "solar_eclipse" },
       "priority": 960,
       "copy": {
         "title_template": "Solar Eclipse → {{date_local}}",
         "future_theme": "System reset; visibility shifts. Expect plot twists around leadership, visibility, and purpose."
       },
-      "echo_ids": [
-        "echo.un.founding.1945",
-        "echo.un.udhr.1948"
-      ],
-      "tags": [
-        "eclipse",
-        "solar"
-      ]
+      "echo_ids": ["echo.un.founding.1945","echo.un.udhr.1948"],
+      "tags": ["eclipse","solar"]
     },
     {
       "id": "rule.eclipse.lunar.any",
       "type": "moon_phase",
-      "match": {
-        "phase": "lunar_eclipse"
-      },
+      "match": { "phase": "lunar_eclipse" },
       "priority": 950,
       "copy": {
         "title_template": "Lunar Eclipse → {{date_local}}",
         "future_theme": "Emotional/collective tides turn. Release, reveal, realign."
       },
-      "echo_ids": [
-        "echo.finance.great_depression.1929",
-        "echo.us.gold_rush.1848-1855"
-      ],
-      "tags": [
-        "eclipse",
-        "lunar"
-      ]
+      "echo_ids": ["echo.finance.great_depression.1929","echo.us.gold_rush.1848-1855"],
+      "tags": ["eclipse","lunar"]
     },
-    {
-      "id": "rule.eclipse.solar.libra",
-      "type": "moon_phase",
-      "match": {
-        "phase": "solar_eclipse",
-        "sign": "Libra"
-      },
-      "priority": 965,
-      "copy": {
-        "title_template": "Libra Solar Eclipse → {{date_local}}",
-        "future_theme": "Treaties, courts, and partnerships reset. Renegotiate terms; balance rights with responsibilities."
-      },
-      "echo_ids": [
-        "echo.un.founding.1945",
-        "echo.env.paris_agreement.2015"
-      ],
-      "tags": [
-        "eclipse",
-        "solar",
-        "libra"
-      ]
-    },
-    {
-      "id": "rule.eclipse.lunar.taurus",
-      "type": "moon_phase",
-      "match": {
-        "phase": "lunar_eclipse",
-        "sign": "Taurus"
-      },
-      "priority": 955,
-      "copy": {
-        "title_template": "Taurus Lunar Eclipse → {{date_local}}",
-        "future_theme": "Markets and commodities repriced; food/land themes intensify. Release what’s overvalued."
-      },
-      "echo_ids": [
-        "echo.finance.great_depression.1929",
-        "echo.us.gold_rush.1848-1855"
-      ],
-      "tags": [
-        "eclipse",
-        "lunar",
-        "taurus"
-      ]
-    }
+
+    /* ======================
+       ECLIPSES — SIGN-SPECIFIC (12 solar + 12 lunar)
+       Note: sign-specific eclipse rules outrank sign-specific New/Full.
+       ====================== */
+
+    { "id": "rule.eclipse.solar.aries", "type": "moon_phase",
+      "match": { "phase": "solar_eclipse", "sign": "Aries" }, "priority": 975,
+      "copy": { "title_template": "Aries Solar Eclipse → {{date_local}}",
+        "future_theme": "Leadership and initiative reset. Pivots in conflict/strategy; new missions launch." },
+      "echo_ids": ["echo.us.american_revolution.1775-1783","echo.fr.french_revolution.1789-1799"],
+      "tags": ["eclipse","solar","aries"] },
+
+    { "id": "rule.eclipse.solar.taurus", "type": "moon_phase",
+      "match": { "phase": "solar_eclipse", "sign": "Taurus" }, "priority": 975,
+      "copy": { "title_template": "Taurus Solar Eclipse → {{date_local}}",
+        "future_theme": "Value systems reset: money, commodities, food, and land policies pivot." },
+      "echo_ids": ["echo.finance.great_depression.1929","echo.us.gold_rush.1848-1855"],
+      "tags": ["eclipse","solar","taurus"] },
+
+    { "id": "rule.eclipse.solar.gemini", "type": "moon_phase",
+      "match": { "phase": "solar_eclipse", "sign": "Gemini" }, "priority": 975,
+      "copy": { "title_template": "Gemini Solar Eclipse → {{date_local}}",
+        "future_theme": "Media, messaging, and mobility reset. New narratives take the mic." },
+      "echo_ids": ["echo.tech.printing_press.1440s","echo.tech.internet_takeoff.1993"],
+      "tags": ["eclipse","solar","gemini"] },
+
+    { "id": "rule.eclipse.solar.cancer", "type": "moon_phase",
+      "match": { "phase": "solar_eclipse", "sign": "Cancer" }, "priority": 975,
+      "copy": { "title_template": "Cancer Solar Eclipse → {{date_local}}",
+        "future_theme": "Home, food, and care reset. Safety nets and kitchens become policy stages." },
+      "echo_ids": ["echo.us.new_deal.1933","echo.public_health.sanitation.1800s"],
+      "tags": ["eclipse","solar","cancer"] },
+
+    { "id": "rule.eclipse.solar.leo", "type": "moon_phase",
+      "match": { "phase": "solar_eclipse", "sign": "Leo" }, "priority": 975,
+      "copy": { "title_template": "Leo Solar Eclipse → {{date_local}}",
+        "future_theme": "Visibility and performance reset. Shifts in leadership, branding, and spectacle." },
+      "echo_ids": ["echo.hollywood.golden_age.1930s","echo.culture.woodstock.1969"],
+      "tags": ["eclipse","solar","leo"] },
+
+    { "id": "rule.eclipse.solar.virgo", "type": "moon_phase",
+      "match": { "phase": "solar_eclipse", "sign": "Virgo" }, "priority": 975,
+      "copy": { "title_template": "Virgo Solar Eclipse → {{date_local}}",
+        "future_theme": "Health and work reset. Systems, hygiene, and tooling become the story." },
+      "echo_ids": ["echo.public_health.sanitation.1800s","echo.lean.manufacturing.20c"],
+      "tags": ["eclipse","solar","virgo"] },
+
+    { "id": "rule.eclipse.solar.libra", "type": "moon_phase",
+      "match": { "phase": "solar_eclipse", "sign": "Libra" }, "priority": 975,
+      "copy": { "title_template": "Libra Solar Eclipse → {{date_local}}",
+        "future_theme": "Treaties, courts, and partnerships reset. Renegotiate terms; balance rights with responsibilities." },
+      "echo_ids": ["echo.un.founding.1945","echo.env.paris_agreement.2015"],
+      "tags": ["eclipse","solar","libra"] },
+
+    { "id": "rule.eclipse.solar.scorpio", "type": "moon_phase",
+      "match": { "phase": "solar_eclipse", "sign": "Scorpio" }, "priority": 975,
+      "copy": { "title_template": "Scorpio Solar Eclipse → {{date_local}}",
+        "future_theme": "Power, debt, and secrecy reset. Purge toxins; reorganize capital and trust." },
+      "echo_ids": ["echo.finance.gfc.2008","echo.za.mandela_president.1994"],
+      "tags": ["eclipse","solar","scorpio"] },
+
+    { "id": "rule.eclipse.solar.sagittarius", "type": "moon_phase",
+      "match": { "phase": "solar_eclipse", "sign": "Sagittarius" }, "priority": 975,
+      "copy": { "title_template": "Sagittarius Solar Eclipse → {{date_local}}",
+        "future_theme": "Belief, law, and travel reset. New doctrines, borders, and expeditions emerge." },
+      "echo_ids": ["echo.age_of_exploration.1500s","echo.space.moon_landing.1969"],
+      "tags": ["eclipse","solar","sagittarius"] },
+
+    { "id": "rule.eclipse.solar.capricorn", "type": "moon_phase",
+      "match": { "phase": "solar_eclipse", "sign": "Capricorn" }, "priority": 975,
+      "copy": { "title_template": "Capricorn Solar Eclipse → {{date_local}}",
+        "future_theme": "Institutional reset. Governance, budgets, and career ladders restructured." },
+      "echo_ids": ["echo.cold_war.birth.1947","echo.dotcom.bubble.collapse.2000"],
+      "tags": ["eclipse","solar","capricorn"] },
+
+    { "id": "rule.eclipse.solar.aquarius", "type": "moon_phase",
+      "match": { "phase": "solar_eclipse", "sign": "Aquarius" }, "priority": 975,
+      "copy": { "title_template": "Aquarius Solar Eclipse → {{date_local}}",
+        "future_theme": "Networks and tech reset. Platforms, standards, and social graphs shift." },
+      "echo_ids": ["echo.eu.enlightenment.1600-1700s","echo.tech.internet_takeoff.1993"],
+      "tags": ["eclipse","solar","aquarius"] },
+
+    { "id": "rule.eclipse.solar.pisces", "type": "moon_phase",
+      "match": { "phase": "solar_eclipse", "sign": "Pisces" }, "priority": 975,
+      "copy": { "title_template": "Pisces Solar Eclipse → {{date_local}}",
+        "future_theme": "Compassion and imagination reset. Art, faith, and care infrastructures re-dreamed." },
+      "echo_ids": ["echo.covid.pandemic.2020","echo.hospital.nursing.modern.19c"],
+      "tags": ["eclipse","solar","pisces"] },
+
+    { "id": "rule.eclipse.lunar.aries", "type": "moon_phase",
+      "match": { "phase": "lunar_eclipse", "sign": "Aries" }, "priority": 965,
+      "copy": { "title_template": "Aries Lunar Eclipse → {{date_local}}",
+        "future_theme": "Release battle stances; endings around conflict/identity clear the way for braver starts." },
+      "echo_ids": ["echo.us.american_revolution.1775-1783","echo.fr.french_revolution.1789-1799"],
+      "tags": ["eclipse","lunar","aries"] },
+
+    { "id": "rule.eclipse.lunar.taurus", "type": "moon_phase",
+      "match": { "phase": "lunar_eclipse", "sign": "Taurus" }, "priority": 965,
+      "copy": { "title_template": "Taurus Lunar Eclipse → {{date_local}}",
+        "future_theme": "Markets and commodities repriced; food/land themes intensify. Release what’s overvalued." },
+      "echo_ids": ["echo.finance.great_depression.1929","echo.us.gold_rush.1848-1855"],
+      "tags": ["eclipse","lunar","taurus"] },
+
+    { "id": "rule.eclipse.lunar.gemini", "type": "moon_phase",
+      "match": { "phase": "lunar_eclipse", "sign": "Gemini" }, "priority": 965,
+      "copy": { "title_template": "Gemini Lunar Eclipse → {{date_local}}",
+        "future_theme": "Information purges; rumors peak and burst. Shift channels, clarify the message." },
+      "echo_ids": ["echo.tech.printing_press.1440s","echo.tech.internet_takeoff.1993"],
+      "tags": ["eclipse","lunar","gemini"] },
+
+    { "id": "rule.eclipse.lunar.cancer", "type": "moon_phase",
+      "match": { "phase": "lunar_eclipse", "sign": "Cancer" }, "priority": 965,
+      "copy": { "title_template": "Cancer Lunar Eclipse → {{date_local}}",
+        "future_theme": "Tides turn at home and in care systems. Let go of stale protections; renew support." },
+      "echo_ids": ["echo.us.new_deal.1933","echo.public_health.sanitation.1800s"],
+      "tags": ["eclipse","lunar","cancer"] },
+
+    { "id": "rule.eclipse.lunar.leo", "type": "moon_phase",
+      "match": { "phase": "lunar_eclipse", "sign": "Leo" }, "priority": 965,
+      "copy": { "title_template": "Leo Lunar Eclipse → {{date_local}}",
+        "future_theme": "Old spotlights dim; new stages open. Release ego narratives; honor authentic creativity." },
+      "echo_ids": ["echo.hollywood.golden_age.1930s","echo.culture.woodstock.1969"],
+      "tags": ["eclipse","lunar","leo"] },
+
+    { "id": "rule.eclipse.lunar.virgo", "type": "moon_phase",
+      "match": { "phase": "lunar_eclipse", "sign": "Virgo" }, "priority": 965,
+      "copy": { "title_template": "Virgo Lunar Eclipse → {{date_local}}",
+        "future_theme": "Endings in processes and health regimens; make room for cleaner, kinder systems." },
+      "echo_ids": ["echo.public_health.sanitation.1800s","echo.lean.manufacturing.20c"],
+      "tags": ["eclipse","lunar","virgo"] },
+
+    { "id": "rule.eclipse.lunar.libra", "type": "moon_phase",
+      "match": { "phase": "lunar_eclipse", "sign": "Libra" }, "priority": 965,
+      "copy": { "title_template": "Libra Lunar Eclipse → {{date_local}}",
+        "future_theme": "Contracts and alliances culminate; imbalances surface. Close chapters with fairness." },
+      "echo_ids": ["echo.un.founding.1945","echo.un.udhr.1948"],
+      "tags": ["eclipse","lunar","libra"] },
+
+    { "id": "rule.eclipse.lunar.scorpio", "type": "moon_phase",
+      "match": { "phase": "lunar_eclipse", "sign": "Scorpio" }, "priority": 965,
+      "copy": { "title_template": "Scorpio Lunar Eclipse → {{date_local}}",
+        "future_theme": "Expose shadow ledgers; buried truths surface. Release toxic ties; reclaim power." },
+      "echo_ids": ["echo.finance.gfc.2008","echo.za.mandela_president.1994"],
+      "tags": ["eclipse","lunar","scorpio"] },
+
+    { "id": "rule.eclipse.lunar.sagittarius", "type": "moon_phase",
+      "match": { "phase": "lunar_eclipse", "sign": "Sagittarius" }, "priority": 965,
+      "copy": { "title_template": "Sagittarius Lunar Eclipse → {{date_local}}",
+        "future_theme": "Beliefs tested, verdicts delivered; journeys conclude. Let the data edit the doctrine." },
+      "echo_ids": ["echo.age_of_exploration.1500s","echo.space.moon_landing.1969"],
+      "tags": ["eclipse","lunar","sagittarius"] },
+
+    { "id": "rule.eclipse.lunar.capricorn", "type": "moon_phase",
+      "match": { "phase": "lunar_eclipse", "sign": "Capricorn" }, "priority": 965,
+      "copy": { "title_template": "Capricorn Lunar Eclipse → {{date_local}}",
+        "future_theme": "Institutional endings; accountability moments. Close failing structures, keep what works." },
+      "echo_ids": ["echo.cold_war.birth.1947","echo.dotcom.bubble.collapse.2000"],
+      "tags": ["eclipse","lunar","capricorn"] },
+
+    { "id": "rule.eclipse.lunar.aquarius", "type": "moon_phase",
+      "match": { "phase": "lunar_eclipse", "sign": "Aquarius" }, "priority": 965,
+      "copy": { "title_template": "Aquarius Lunar Eclipse → {{date_local}}",
+        "future_theme": "Networks and platforms shed old skins; collective realignments land." },
+      "echo_ids": ["echo.eu.enlightenment.1600-1700s","echo.tech.internet_takeoff.1993"],
+      "tags": ["eclipse","lunar","aquarius"] },
+
+    { "id": "rule.eclipse.lunar.pisces", "type": "moon_phase",
+      "match": { "phase": "lunar_eclipse", "sign": "Pisces" }, "priority": 965,
+      "copy": { "title_template": "Pisces Lunar Eclipse → {{date_local}}",
+        "future_theme": "Tidal release of grief and dreams; service pivots. Close with compassion." },
+      "echo_ids": ["echo.covid.pandemic.2020","echo.hospital.nursing.modern.19c"],
+      "tags": ["eclipse","lunar","pisces"] }
   ]
 }
